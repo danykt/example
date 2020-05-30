@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Lato|Varela|Oxygen|Roboto:wght@900|Archivo|Source+Sans+Pro|Roboto+Condensed&display=swap');
+
+#welcome{
+      font-family: 'BioRhyme', serif;
+      font-size: 50px;
+      font-weight: bold;
+      color: #F7F9FB;
+}
+#welcome-segment{
+	background-color: #687864;
+}
+
+#container{
+	min-height: 80%;
+}

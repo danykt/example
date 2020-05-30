@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Chelsea+Market|Poppins:ital,wght@1,800|ByoRhyme|Abril+Fatface|Cairo|Concert+One|Fjalla+One|Source+Sans+Pro|Roboto|Hind|Anton|Josefin+Sans|Crimson+Text|Sue+Ellen+Francisco&display=swap');
+
+#card-header{
+	font-family: 'Chelsea Market', cursive;
+}
+
+.modal-paragraph{
+	line-height: 200%; 
+}
+
+#button-modal{
+	background-color: #31708E;
+}

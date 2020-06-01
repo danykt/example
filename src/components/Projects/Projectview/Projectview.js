@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Popup, Grid, Image, Transition, Segment, List, Flag, Header, Icon} from 'semantic-ui-react'
+import { Form, Popup, Grid, Image, Transition, Segment, Button, List, Flag, Header, Icon} from 'semantic-ui-react'
 import './Projectview.css';
 import {isMobile} from 'react-device-detect';
 import {Transitions} from '../../../util/Transitions.js'
@@ -38,10 +38,11 @@ class ProjectView extends React.Component{
     let projectInfo = this.props.selectedProject;
   	return (
             <div> 
-              <Header>{projectInfo.heading}</Header> 
-              <Header>{projectInfo.date}</Header>
+
+              <Header id="project-title">{projectInfo.heading}</Header>
+              <Header id="project-date">{projectInfo.date}</Header>
               <p id="project-description">{projectInfo.description}</p>
-              <a href={projectInfo.link} target="_blank"><Icon size="large" circular name="eye"/></a>
+              <Button centered id="link-button" inverted color="black" as="a" href={projectInfo.link} target="_blank"> Learn More </Button>
             </div>
           	);
   }
@@ -49,7 +50,7 @@ class ProjectView extends React.Component{
 
   renderProject(){
     return (
-          <Segment>
+          <Segment piled id="project">
           {this.renderProjectInfo()}
           </Segment>
     )
@@ -61,7 +62,7 @@ class ProjectView extends React.Component{
       <div>
           <Transition.Group animation={animation} duration={duration}>
             {this.props.visible && (
-              <Segment raised>
+              <Segment raised textAlign="center">
               <Header> Technologies used </Header>
                {this.renderTechnologies()}
                </Segment>
@@ -73,11 +74,13 @@ class ProjectView extends React.Component{
 
 
   render() {
+
+
     
        return (
-      <Grid columns={2}  stackable>
+      <Grid centered={!isMobile} columns={2} stackable>
         <Grid.Row>
-        <Grid.Column width={13}>
+        <Grid.Column width={8}>
          
          {isMobile? this.renderTransition(): this.renderProject()}
         </Grid.Column>

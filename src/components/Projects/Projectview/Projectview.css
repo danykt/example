@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Fjalla+One|Source+Sans+Pro|Roboto|Hind|Anton|Josefin+Sans|Crimson+Text|Sue+Ellen+Francisco&display=swap');
+
+
 #project-description{
 	line-height: 200%;
 	text-align: left;
 	font-size: 16px;
+	font-family: 'Hind', sans-serif;
+}
+
+#project{
+	background-color: #E0D3AF;
+}
+
+#project-title, #project-date{
+	font-family: 'Fjalla One', sans-serif;
+}
+#link-button{
+	color: black;
+}
+
+#link-button:hover{
+	color: white;
 }

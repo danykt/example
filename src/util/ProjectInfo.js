@@ -2,6 +2,7 @@ export let ProjectsArray = [
         {
             id: "favorite",
             key: 0,
+            imageSrc:"https://brainhub.eu/blog/wp-content/uploads/2019/04/why-react-js.png",
             heading: "Favorite Players App",
             date: "April-May 2020",
             description: "Favorite players web app was built on react using stateless and stateful components. Using the design pattern MVC the components communicate through each other achieving a clean enviroment. The design and animations were built with semantic UI.",
@@ -11,6 +12,7 @@ export let ProjectsArray = [
         {
             id: "webApp",
             key: 1,
+            imageSrc:"https://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png",
             heading: "Web App Portfolio",
             date: "January-March  2020",
             description: "This web app was build using HTML/CSS and JavaScript. Using important resources such as Jquery animations as well as handlebars template to render each project. The web app is fully responsive to any device or screen size. The web app was deployed to heroku cloud services",
@@ -20,6 +22,7 @@ export let ProjectsArray = [
         {
             id: "react",
             key: 2,
+            imageSrc:"https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/163149/0120-Stale-while-revalidate_Data_Fetching_with_React_Hooks-Waldek_Newsletter-5222468607946967fa1b0a4525326739.png",
             heading: "React Web App",
             date: "August-December 2019",
             description: "Design and Implmentation of Edfry Delivery web app prototype. Using React.js Redux and Node.js, the web app was designed to consume the Express.js web api. The interfaces were designed for the  different types of Users: Customer, Driver and Manager.",
@@ -29,6 +32,7 @@ export let ProjectsArray = [
         {
             id: "server",
             key: 3,
+            imageSrc:"https://miro.medium.com/max/805/1*alZcSIb0lcN7gQIx2tJ_tg.png",
             heading: "Express Web Server",
             date: "February-August 2019",
             description: "Implementation of web server  using Express.js, MongoDB and Node.js. Different route were designed to satisfy a delivery company's needs. Customer, Drivers and Manager were assigned different permission access. Server is fully functional and deployed to heroku cloud services",
@@ -38,15 +42,17 @@ export let ProjectsArray = [
         {
             id: "csharp",
             key: 4,
+            imageSrc:"https://programaenlinea.net/wp-content/uploads/2018/06/xamarin-visualStudio.jpg",
             heading: "Soccer App",
             date: "September-December 2017",
-            description: "In Advance programming course. I implemented a soccer app where users give ratings to different soccer players. The project was built with Xamarin forms and Azure services to retrieve soccer players information. The idea was to save players ratings once the user had signed in.",
+            description: "In Advance programming course I implemented a soccer app where users give ratings to different soccer players. The project was built with Xamarin forms and Azure services to retrieve soccer players information. The idea was to save players ratings once the user had signed in.",
             link: "https://github.com/danykt/SoccerAPP",
             technologyIcons:[{iconName: "windows", iconColor: "blue"},{iconName: "cloud upload", iconColor: "black"},{iconName: "file code", iconColor: "black"}]
         },
         {
             id: "bookFinder",
             key: 5,
+            imageSrc:"https://www.collectorz.com/wp/wp-content/uploads/2013/11/html5-css3-php-ajax-mysql.jpg",
             heading: "Book Finder SPU",
             date: "January-June 2017",
             description: "In this project our group was given the task to design and implement a web app where students would sell their unwanted textbooks. The web app was built using PHP/HTML and CSS for the front end part and MySQL for the Database.",
@@ -56,6 +62,7 @@ export let ProjectsArray = [
         {
             id: "structures",
             key: 6,
+            imageSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--AO0dFdQ5--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/srnvrd7vfeeq5qpxnabq.png",
             heading: "Data Structures",
             date: "January-March 2017",
             description: "In data structures II course I programmed different types of data sturctures such as linked list, trees stacks and queues using c++. The idea of these projects was to understand how data structues worked internally and how they could be applied to real world scenerios.",
@@ -65,6 +72,7 @@ export let ProjectsArray = [
         {
             id: "android",
             key: 7,
+            imageSrc:"https://sm.pcmag.com/t/pcmag_uk/feature/t/the-100-be/the-100-best-android-apps-of-2018_r8sk.h720.jpg",
             heading: "Android App",
             date: "January-March 2017",
             description: "In app develoment course we were given the tasks to develop apps using Java along with Android Studio. During these project we learn how to use Google libraries in order to implement google services such maps or google translation tools.",
@@ -74,6 +82,7 @@ export let ProjectsArray = [
         {
             id: "micro",
             key: 8,
+            imageSrc:"https://predictabledesigns.com/wp-content/uploads/2017/08/HeroImage800.jpg",
             heading: "Microcontrollers",
             date: "March-June 2017",
             description: "In Microcontrollers system design we were assigned to assemble and program the PSOC4 microcontroller for various projects using C language. The programming of a microcontroller requires different techniques such as look up tables to make the microcontroller as efficient as possible.",

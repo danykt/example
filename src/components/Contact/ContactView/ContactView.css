@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Poppins:ital,wght@1,800|Abril+Fatface|Cairo|Concert+One|Fjalla+One|Source+Sans+Pro|Roboto|Hind|Anton|Josefin+Sans|Crimson+Text|Sue+Ellen+Francisco&display=swap');
+
+#contact-link{
+	color: #AC3B61;
+	font-family: "Concert One", cursive;
+}
+
+#contact-card{
+	background-color: #EDC7B7;
+}

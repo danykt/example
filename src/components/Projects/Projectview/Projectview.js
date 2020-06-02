@@ -1,5 +1,5 @@
 import React, {createRef} from 'react';
-import { Form, Popup, Sticky, Grid, Image, Transition, Segment, Button, List, Flag, Header, Icon} from 'semantic-ui-react'
+import { Form, Container, Popup, Sticky, Grid, Image, Transition, Segment, Button, List, Flag, Header, Icon} from 'semantic-ui-react'
 import './Projectview.css';
 import {isMobile} from 'react-device-detect';
 import {Transitions} from '../../../util/Transitions.js'
@@ -39,10 +39,12 @@ class ProjectView extends React.Component{
   	return (
             <div> 
 
-              <Header id="project-title">{projectInfo.heading}</Header>
-              <Header id="project-date">{projectInfo.date}</Header>
+              <Header textAlign="center" id="project-title">{projectInfo.heading}</Header>
+              <Header textAlign="center" id="project-date">{projectInfo.date}</Header>
               <p id="project-description">{projectInfo.description}</p>
-              <Button centered id="link-button" inverted color="black" as="a" href={projectInfo.link} target="_blank"> Learn More </Button>
+              <Container textAlign='center'>
+                <Button id="link-button" inverted color="black" as="a" href={projectInfo.link} target="_blank"> Learn More </Button>
+              </Container>
             </div>
           	);
   }

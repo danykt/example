@@ -1,7 +1,7 @@
 import React from 'react';
 import {Grid, Segment, Transition, Header, Card, Image, Icon} from 'semantic-ui-react';
 import {Transitions} from '../../../util/Transitions.js'
-
+import './ContactView.css';
 
 
 class ContactView extends React.Component{
@@ -19,7 +19,7 @@ class ContactView extends React.Component{
 			    target={'_blank'}
 			    wrapped ui={false} />
 			    <Card.Content>
-			      <Card.Header>{contactInfo.trimLink}</Card.Header>
+			      <Card.Header id="contact-link">{contactInfo.trimLink}</Card.Header>
 			    </Card.Content>
 			  </Card>
 
@@ -51,7 +51,7 @@ class ContactView extends React.Component{
   	render(){
   		return(
   			<Grid.Column>
-	              <Segment raised>
+	              <Segment raised id="contact-card">
 	              <Header> How can I help you today? </Header>
 	               	{this.renderContactInfo()}
 	               </Segment>

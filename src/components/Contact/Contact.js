@@ -35,7 +35,7 @@ class Contact extends React.Component{
 
 	render(){
 		return (
-			<Grid divided='vertically' stackable>
+			<Grid divided='vertically' stackable id="contact-grid">
 				<Grid.Row columns={2}>
 					<ContactControl contactItems={contactItems} chooseContactItem={this.chooseContactItem}/>
 					<ContactView 

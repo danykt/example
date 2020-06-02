@@ -1,0 +1,20 @@
+#navbar{
+	background-color: #123C69;
+	color: white;
+}
+
+#navbar-icon{
+	color: white;
+}
+
+#navbar-icon-active{
+	color: #FBEEC1;
+}
+
+#menu-item{
+	color: white;
+}
+
+#menu-item-active{
+	color: #FBEEC1;
+}

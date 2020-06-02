@@ -54,8 +54,8 @@ class ContactControl extends React.Component{
 
 	renderInfoList(){
 		return(
-			<Segment>
-				<Header as="h1"> 
+			<Segment id="info-list">
+				<Header as="h1" id="contact-title"> 
 					Contact me 
 					<Header.Subheader> 
 						Hablas espanol? Yo tambien contactame.

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Poppins:ital,wght@1,800|Abril+Fatface|Cairo|Concert+One|Fjalla+One|Source+Sans+Pro|Roboto|Hind|Anton|Josefin+Sans|Crimson+Text|Sue+Ellen+Francisco&display=swap');
+
+
 .buttons-segment{
 	margin-left: 5%;
 }
@@ -5,4 +8,17 @@
 #button-icon{
 	text-align: center;
 	margin: 10px;
+}
+
+#contact-title{
+	font-family: "Poppins", sans-serif;
+}
+
+#contact-description{
+	color: #AC3B61;
+	font-family: "Concert One", cursive;
+}
+
+#info-list{
+	background-color: #EDC7B7;
 }

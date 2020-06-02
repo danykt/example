@@ -3,6 +3,7 @@ import ProjectsControl from './ProjectControl/ProjectsControl.js'
 import Projectview from './Projectview/Projectview';
 import {isMobile} from 'react-device-detect';
 import {ProjectsArray} from '../../util/ProjectInfo.js';
+import {animateScroll as scroll} from 'react-scroll';
 
 
 
@@ -18,27 +19,30 @@ class Projects extends React.Component{
       }
 
 	chooseProject(projectKey){
-         this.handleVisibility();
-		this.setState({selectedProject: ProjectsArray[projectKey]});
+        
+        scroll.scrollToTop();
+        
         setTimeout(() => this.handleVisibility(),100);
+		this.setState({selectedProject: ProjectsArray[projectKey]});
+        setTimeout(() => this.handleVisibility(),200);
 
 	}
 
 	render(){
-    if(!isMobile){
+   // if(!isMobile){
     return (
           <div>
             <Projectview selectedProject={this.state.selectedProject} visible={this.state.visible}/>
             <ProjectsControl projects={ProjectsArray} chooseProject={this.chooseProject}/>
           </div>
         );
-    }
-        return(
-           <div>
-            <ProjectsControl projects={ProjectsArray} chooseProject={this.chooseProject}/>
-            <Projectview selectedProject={this.state.selectedProject} visible={this.state.visible}/>
-          </div>
-        )
+  //  }
+        // return(
+        //    <div>
+        //     <ProjectsControl projects={ProjectsArray} chooseProject={this.chooseProject}/>
+        //     <Projectview selectedProject={this.state.selectedProject} visible={this.state.visible}/>
+        //   </div>
+        // )
     
   }
 

@@ -100,7 +100,7 @@ class Bio extends React.Component{
          	
          	<Segment id="welcome-segment">{this.animationHeader()}</Segment>
          	<Segment>
-				<Card.Group stackable centered>
+				<Card.Group stackable centered >
 					{this.cards()}
 				</Card.Group>
          	</Segment>

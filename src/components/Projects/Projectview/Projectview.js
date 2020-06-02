@@ -1,5 +1,5 @@
-import React from 'react';
-import { Form, Popup, Grid, Image, Transition, Segment, Button, List, Flag, Header, Icon} from 'semantic-ui-react'
+import React, {createRef} from 'react';
+import { Form, Popup, Sticky, Grid, Image, Transition, Segment, Button, List, Flag, Header, Icon} from 'semantic-ui-react'
 import './Projectview.css';
 import {isMobile} from 'react-device-detect';
 import {Transitions} from '../../../util/Transitions.js'

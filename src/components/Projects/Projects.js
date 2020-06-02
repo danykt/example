@@ -22,9 +22,9 @@ class Projects extends React.Component{
         
         scroll.scrollToTop();
         
-        setTimeout(() => this.handleVisibility(),100);
+        setTimeout(() => this.handleVisibility(),500);
 		this.setState({selectedProject: ProjectsArray[projectKey]});
-        setTimeout(() => this.handleVisibility(),200);
+        setTimeout(() => this.handleVisibility(),700);
 
 	}
 

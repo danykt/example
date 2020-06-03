@@ -6,7 +6,7 @@ export let ProjectsArray = [
             heading: "Web App Portfolio React",
             date: "April-May 2020",
             description: "This platform was built using the integration of React and Semantic UI. The quick functionality of react and the responsiveness of semantic ui are combined to achieve quick and responsive web apps with animations such as this web app.",
-            link: "#",
+            link: "https://github.com/danykt/reactPortfolio",
             technologyIcons:[{iconName: "react", iconColor: "teal"}, {iconName: "node icon", iconColor: "green"},{iconName: "html5", iconColor: "orange"},{iconName: "css3", iconColor: "blue"},{iconName: "js icon", iconColor: "yellow"}]
 
         },

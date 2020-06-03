@@ -1,8 +1,15 @@
-#navbar{
+#navbar-contact{
 	background-color: #123C69;
 	color: white;
 }
+#navbar-project{
+	background-color: #9a4d55;
+	opacity: .9;
+}
 
+#navbar-bio{
+	background-color: #659DBD;
+}
 #navbar-icon{
 	color: white;
 }

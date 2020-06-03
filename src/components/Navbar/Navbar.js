@@ -6,15 +6,17 @@ export default class Navbar extends Component {
   state = {activeItem: 'bio'}
 
   handleItemClick = (e, {name}) => {
+    let backgroundStyle = name === 'bio'? '#31708E' :( name === 'projects'? '#111c30': '#EEE2DC')
+    document.body.style.backgroundColor = backgroundStyle;
     this.props.changeTab(name);
-    this.setState({activeItem: name}
-    )};
+    this.setState({activeItem: name})
+  };
 
   render() {
     const { activeItem } = this.state
-
+    let menuStyle  = activeItem==='bio'? "navbar-bio" : (activeItem==='projects'? 'navbar-project' : 'navbar-contact')
     return (
-        <Menu icon='labeled' id="navbar">
+        <Menu icon='labeled' id={menuStyle}>
         <Menu.Item
           id={activeItem === 'bio'? "menu-item-active": "menu-item"}
           name='bio'

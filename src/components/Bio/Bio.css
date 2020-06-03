@@ -4,12 +4,12 @@
       font-family: 'BioRhyme', serif;
       font-size: 50px;
       font-weight: bold;
-      color: #F7F9FB;
+      color: #DDAD86;
 }
 #welcome-segment{
-	background-color: #687864;
+	background-color: #FBEEC1;
 }
 
 #container{
-	min-height: 80%;
+	background-color: #BC986A;
 }

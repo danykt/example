@@ -3,6 +3,12 @@
   margin: 10px;
 }
 
+#app-bio{
+  background-color: #31708E;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

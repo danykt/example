@@ -35,7 +35,9 @@ class Contact extends React.Component{
 
 	render(){
 		return (
-			<Grid divided='vertically' stackable id="contact-grid">
+			<Segment.Group raised>
+			<Segment id="contact-grid">
+			<Grid divided='vertically' stackable>
 				<Grid.Row columns={2}>
 					<ContactControl contactItems={contactItems} chooseContactItem={this.chooseContactItem}/>
 					<ContactView 
@@ -45,6 +47,9 @@ class Contact extends React.Component{
 					/>
 				</Grid.Row>
 			</Grid>
+			</Segment>
+			<Segment attached="bottom" id="contact-footer">@Cesar labastida </Segment>
+			</Segment.Group>
 
 			)
 	}

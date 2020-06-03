@@ -99,11 +99,12 @@ class Bio extends React.Component{
          <Segment.Group id="container" raised>
          	
          	<Segment id="welcome-segment">{this.animationHeader()}</Segment>
-         	<Segment>
+         	<Segment id="container">
 				<Card.Group stackable centered >
 					{this.cards()}
 				</Card.Group>
          	</Segment>
+            <Segment attached="bottom" id="bio-footer">@Cesar Labastida</Segment>
          </Segment.Group>
          )
 		}

@@ -9,6 +9,11 @@
 	line-height: 200%; 
 }
 
+#bio-footer{
+	background-color: #434310;
+	color: white;
+}
+
 #button-modal{
-	background-color: #31708E;
+	background-color: #6b7d3f;
 }

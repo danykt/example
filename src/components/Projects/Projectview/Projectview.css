@@ -7,9 +7,11 @@
 	font-size: 16px;
 	font-family: 'Hind', sans-serif;
 }
-
+#project-view-segment{
+	background-color: #101357;
+}
 #project{
-	background-color: #E0D3AF;
+	background-color: white;
 }
 
 #project-title, #project-date{

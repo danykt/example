@@ -9,7 +9,7 @@ const Biocard = (props) => (
 					      <Card.Header id="card-header">{props.bio.header}</Card.Header>
 						  <Image src={props.bio.imgSrc} size="large"/>
 						  
-						    <Modal trigger={<Button attached="bottom" id="button-modal" inverted icon="eye" content="view"/>}>
+						    <Modal trigger={<Button attached="bottom" id="button-modal" inverted icon={props.bio.icon} content={props.bio.title}/>}>
 							    <Modal.Header>{props.bio.header}</Modal.Header>
 							    <Modal.Content image>
 							      <Image wrapped size='massive' src={props.bio.imgSrc} />

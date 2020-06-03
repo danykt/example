@@ -9,7 +9,7 @@ class Bio extends React.Component{
  		   bioCardsArray : [
  		   	{animation: 'horizontal flip', 
  		   	duration: 2000,
- 		   	title: "Place of Origin",
+ 		   	title: "Fortin Veracruz, Mexico",
  		   	visible: false,
  		   	icon: "home",
  		   	header: "Background", 

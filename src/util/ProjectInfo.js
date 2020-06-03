@@ -1,7 +1,18 @@
 export let ProjectsArray = [
         {
-            id: "favorite",
+            id: "reactPortfolio",
             key: 0,
+            imageSrc: "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_46af5e8a92842c05323841db5eb3c097/semantic-ui-react.png",
+            heading: "Web App Portfolio React",
+            date: "April-May 2020",
+            description: "This platform was built using the integration of React and Semantic UI. The quick functionality of react and the responsiveness of semantic ui are combined to achieve quick and responsive web apps with animations such as this web app.",
+            link: "#",
+            technologyIcons:[{iconName: "react", iconColor: "teal"}, {iconName: "node icon", iconColor: "green"},{iconName: "html5", iconColor: "orange"},{iconName: "css3", iconColor: "blue"},{iconName: "js icon", iconColor: "yellow"}]
+
+        },
+        {
+            id: "favorite",
+            key: 1,
             imageSrc:"https://brainhub.eu/blog/wp-content/uploads/2019/04/why-react-js.png",
             heading: "Favorite Players App",
             date: "April-May 2020",
@@ -11,7 +22,7 @@ export let ProjectsArray = [
         },
         {
             id: "webApp",
-            key: 1,
+            key: 2,
             imageSrc:"https://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png",
             heading: "Web App Portfolio",
             date: "January-March  2020",
@@ -21,7 +32,7 @@ export let ProjectsArray = [
         },
         {
             id: "react",
-            key: 2,
+            key: 3,
             imageSrc:"https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/163149/0120-Stale-while-revalidate_Data_Fetching_with_React_Hooks-Waldek_Newsletter-5222468607946967fa1b0a4525326739.png",
             heading: "React Web App",
             date: "August-December 2019",
@@ -31,7 +42,7 @@ export let ProjectsArray = [
         },
         {
             id: "server",
-            key: 3,
+            key: 4,
             imageSrc:"https://miro.medium.com/max/805/1*alZcSIb0lcN7gQIx2tJ_tg.png",
             heading: "Express Web Server",
             date: "February-August 2019",
@@ -41,7 +52,7 @@ export let ProjectsArray = [
         },
         {
             id: "csharp",
-            key: 4,
+            key: 5,
             imageSrc:"https://programaenlinea.net/wp-content/uploads/2018/06/xamarin-visualStudio.jpg",
             heading: "Soccer App",
             date: "September-December 2017",
@@ -51,7 +62,7 @@ export let ProjectsArray = [
         },
         {
             id: "bookFinder",
-            key: 5,
+            key: 6,
             imageSrc:"https://www.collectorz.com/wp/wp-content/uploads/2013/11/html5-css3-php-ajax-mysql.jpg",
             heading: "Book Finder SPU",
             date: "January-June 2017",
@@ -61,7 +72,7 @@ export let ProjectsArray = [
         },
         {
             id: "structures",
-            key: 6,
+            key: 7,
             imageSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--AO0dFdQ5--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/srnvrd7vfeeq5qpxnabq.png",
             heading: "Data Structures",
             date: "January-March 2017",
@@ -71,7 +82,7 @@ export let ProjectsArray = [
         },
         {
             id: "android",
-            key: 7,
+            key: 8,
             imageSrc:"https://sm.pcmag.com/t/pcmag_uk/feature/t/the-100-be/the-100-best-android-apps-of-2018_r8sk.h720.jpg",
             heading: "Android App",
             date: "January-March 2017",
@@ -81,7 +92,7 @@ export let ProjectsArray = [
         },
         {
             id: "micro",
-            key: 8,
+            key: 9,
             imageSrc:"https://predictabledesigns.com/wp-content/uploads/2017/08/HeroImage800.jpg",
             heading: "Microcontrollers",
             date: "March-June 2017",
